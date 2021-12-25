@@ -8,7 +8,7 @@ export default function Navigation({collections}) {
           <li key={collection.id}>
             <Link
               to={`/collections/${collection.handle}`}
-              className="block p-4 hover:opacity-80"
+              className="block p-4 hover:opacity-80 hover:underline"
             >
               {collection.title}
             </Link>
